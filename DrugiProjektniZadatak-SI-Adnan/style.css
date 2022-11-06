@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGACIJSKA TRAKA */
+.navbar-brand {
+    font-size: 50px;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #07F5FF;
+}
+
+.search {
+    height: 40px;
+    width: 100%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid #07F5FF;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: #07F5FF;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+
+}
+
+
+/* CAROUSEL */
+.slider-frame {
+    overflow: hidden;
+    height: 750px;
+    width: 1920px;
+    margin-top: 20px;
+}
+
+
+@-webkit-keyframes slide_animation {
+    0% {
+        left: 0px;
+    }
+
+    10% {
+        left: 0px;
+    }
+
+    20% {
+        left: 1920px;
+    }
+
+    30% {
+        left: 1920px;
+    }
+
+    40% {
+        left: 3840px;
+    }
+
+    50% {
+        left: 3840px;
+    }
+
+    60% {
+        left: 1920px;
+    }
+
+    70% {
+        left: 1920px;
+    }
+
+    80% {
+        left: 0px;
+    }
+
+    90% {
+        left: 0px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+.slide-images {
+    width: 5760px;
+    height: 750px;
+    margin: 0 0 0 -3840px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container {
+    height: 750px;
+    width: 1920px;
+    position: inline;
+    float: left;
+}
+
+/* KREATINI */
+.btn1 {
+    margin-top: 20px;
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: #07F5FF;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+
+}
+
+.btn1:hover {
+    background-color: #07F5FF;
+    transition: 0.5 s;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.card:hover {
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
+/* POPUSTI */
+.apple {
+    background: url(Slike/POZ5.jpg) no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+}
+
+.apple h1 {
+    font-family: 'Lobster', cursive;
+}
+
+/* NEWSLETTER/KONTAKT */
+.news {
+    background-color: black;
+    color: white;
+}
+
+.btn2 {
+    height: 45.8px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background: #07F5FF;
+}
+
+.news input {
+    height: 45.4px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: rgb(0, 0, 0);
+    color: #07F5FF;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.news::placeholder {
+    color: #07F5FF;
+}
+
+.news p {
+    margin: 0;
+}
+
+.fab {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
